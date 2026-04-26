@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/x-clone',
   trailingSlash: true,
   images: {
     unoptimized: true,
